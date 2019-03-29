@@ -1,0 +1,31 @@
+    In case of using and importing 'stack.js' into your project do as below :
+    
+    to require it simply do:
+
+            ==> var CLASS_NAME = require('.YOUR_DIRECTORY/stack');
+
+    and then :
+
+            ==> var OBJECT = new CLASS_NAME();
+
+    functions would be as below :
+
+        push :
+
+            ==> OBJECT.Push();
+
+        pop : 
+
+            ==> OBJECT.Pop();
+
+        printing stack :
+
+            ==> OBJECT.prinStack();
+
+        check if stack is empty or not :
+
+            ==> OBJECT.isEmpty();
+
+        check if stack is full or not :
+
+            ==> OBJECT.isFull();
